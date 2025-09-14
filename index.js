@@ -1,5 +1,5 @@
 
-    // Data
+   // Data
     const CATEGORIES = [
         { id: 'fabrics', name: 'Fabrics', image: 'img7.jpeg' },
         { id: 'ready', name: 'Ready to Wear', image: 'img6.jpeg' },
@@ -8,8 +8,9 @@
       ];
       const SIZES = ['XS','S','M','L','XL','2XL'];
       const PRODUCTS = [
-        { id: 'fab-001', name: 'Small Grade Ankara', category: 'fabrics', price: 6000, sizes: [], rating: 4.8, image: 'img7.jpeg', description: 'Small Ankara.6 YARD.' },
-        { id: 'fab-002', name: 'Medium Grade Ankarar', category: 'fabrics', price: 8000, sizes: [], rating: 4.6, image: 'img13.jpeg', description: 'Classic retro-style shirt with unique patterns and timeless charm.' },
+        { id: 'fab-001', name: 'Small Grade Ankara', category: 'fabrics', price: 6000, sizes: [], rating: 4.8, image: 'smallA.jpg', description: 'Small Ankara.6 YARD.' },
+        { id: 'fab-002', name: 'Medium Grade Ankara', category: 'fabrics', price: 8000, sizes: [], rating: 4.6, image: 'medium.jpg', description: 'Classic retro-style shirt with unique patterns and timeless charm.' },
+        { id: 'fab-003', name: 'Big Grade Ankara', category: 'fabrics', price: 10000, sizes: [], rating: 5.0, image: 'bigA.jpg', description: 'Classic retro-style shirt with unique patterns and timeless charm.' },
         { id: 'fab-003', name: 'Material', category: 'fabrics', price: 7000, sizes: [], rating: 4.7, image: 'img12.jpeg', description: 'Premium, smooth-textured fabric with a rich, elegant finish.' },
   
         { id: 'rdy-101', name: 'Two Piece', category: 'ready', price: 30000, sizes: ['S','M','L','XL'], rating: 4.5, image: 'img10.jpeg', video: 'vid1.mp4', description: 'Elegant shift dress for effortless day-to-night styling.' },
